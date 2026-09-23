@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2 - Task 2 Component Library</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-logo">BrandLogo</div>
+    <ul class="navbar-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="btn">Log In</button>
+      <button class="btn btn-primary">Sign Up</button>
+    </div>
+  </header>
+
+
+  <section class="cards-row">
+    <div class="card">
+      <h3 class="card-title">Short Description</h3>
+      <p class="card-text">This is a short text inside the card.</p>
+      <button class="btn btn-primary card-button">Action</button>
+    </div>
+    <div class="card">
+      <h3 class="card-title">Medium Description</h3>
+      <p class="card-text">Here is a longer text. It occupies several lines to test if all buttons align properly across cards.</p>
+      <button class="btn btn-primary card-button">Action</button>
+    </div>
+    <div class="card">
+      <h3 class="card-title">Very Long Description</h3>
+      <p class="card-text">This card contains a significant amount of text content to push the boundaries of the layout. Thanks to Flexbox, all cards match this height without breaking.</p>
+      <button class="btn btn-primary card-button">Action</button>
+    </div>
+  </section>
+
+
+  <nav class="pagination-bar">
+    <div class="pagination-controls">
+      <button class="btn">&laquo; Prev</button>
+      <ul class="page-numbers">
+        <li><a href="#" class="page-link active">1</a></li>
+        <li><a href="#" class="page-link">2</a></li>
+        <li><a href="#" class="page-link">3</a></li>
+      </ul>
+      <button class="btn">Next &raquo;</button>
+    </div>
+    <span class="results-count">Showing 1-10 of 50 results</span>
+  </nav>
+
+
+  <article class="comment-block">
+    <div class="avatar">JD</div>
+    <div class="comment-content">
+      <div class="comment-header">
+        <span class="comment-author">John Doe</span>
+        <span class="comment-date">2 hours ago</span>
+      </div>
+      <p class="comment-text">
+        This is a multi-line user comment. Notice how the text wraps neatly on the left side, aligned perfectly with the header above it, and never spills or slides underneath the avatar image even when the text expands to multiple paragraphs.
+      </p>
+    </div>
+  </article>
+
+  <section class="pricing-table">
+    <div class="price-card">
+      <h3 class="price-title">Basic</h3>
+      <div class="price-amount">$9/mo</div>
+      <ul class="price-features">
+        <li>1 User</li>
+        <li>10GB Storage</li>
+        <li>Basic Support</li>
+      </ul>
+      <button class="btn">Select Plan</button>
+    </div>
+
+    <div class="price-card recommended">
+      <h3 class="price-title">Pro (Recommended)</h3>
+      <div class="price-amount">$29/mo</div>
+      <ul class="price-features">
+        <li>5 Users</li>
+        <li>100GB Storage</li>
+        <li>Priority Support</li>
+      </ul>
+      <button class="btn btn-primary">Select Plan</button>
+    </div>
+
+    <div class="price-card">
+      <h3 class="price-title">Enterprise</h3>
+      <div class="price-amount">$99/mo</div>
+      <ul class="price-features">
+        <li>Unlimited Users</li>
+        <li>1TB Storage</li>
+        <li>24/7 Dedicated Support</li>
+      </ul>
+      <button class="btn">Select Plan</button>
+    </div>
+  </section>
+
+</body>
+</html>
